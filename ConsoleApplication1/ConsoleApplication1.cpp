@@ -12,7 +12,7 @@ int main()
         Pintura::mostrarPrecios();
 
         int calidad;
-        cout << "Seleccione la calidad de la pintura (1-3) o ingrese 0 para salir 123456789: ";
+        cout << "Seleccione la calidad de la pintura (1-3) o ingrese 0 para salir: ";
         cin >> calidad;
 
         if (calidad == 0) {
